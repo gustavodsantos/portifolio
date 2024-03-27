@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/*
+    Celular: 320px — 480px.
+    Tablets: 481px — 768px.
+    laptops: 769px — 1024px.
+    Desktops(PCs): 1025px — 1200px.
+    TVs: 1201px, and more.
+*/
+
+@media screen and (min-width: 480px) and (max-width: 768px) { /*tablets*/
+    *{
+        margin: 0px;
+    }
+    ::-webkit-scrollbar{
+        width: 0px;
+        height: 0px;
+    }
+    .titulo {
+        font-size: 25px;
+    }
+    .subtitulo1 {
+        font-size: 15px;
+    }
+    .subtitulo2 {
+        font-size: 15px;
+    }
+    .text {
+        font-size: 15px;
+        letter-spacing: 0pt;
+        line-height: 23px;
+    }
+    .parte1 {
+        padding: 0px 0px;
+    }
+    .atalho{
+        display: block;
+        height: 40px;
+    }   
+    .parte2 {
+        padding: 0px 0px;
+    }   
+    .parte3 {
+        padding: 0px 0px;
+    }   
+    footer#rodape{
+        padding: 10px 0px;
+        font-size: 10px;
+    }
+}

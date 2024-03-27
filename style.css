@@ -1,0 +1,104 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", "sans-serif";
+    text-align: center;
+}
+body, html {
+    height: 100vh;
+    width: 99vw;
+}
+.titulo {
+    font-size: 48px;
+    font-weight: 900;
+    color: #ECF2DF;
+}
+.subtitulo1 {
+    font-size: 26px;
+    color: #590202;
+    font-weight: 600;
+    letter-spacing: 2pt;
+    padding-bottom: 20px;
+}
+.subtitulo2 {
+    color: #590202;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1pt;
+    padding-bottom: 30px;
+}
+.parte1 {
+    background-color: #0D0D0D;
+    padding: 80px;
+}
+.text {
+    color: #828a9c;
+    font-size: 20px;
+    letter-spacing: 1pt;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+.btn {
+    background-color: #0D0D0D;
+    border-radius: 5px;
+    padding: 20px 40px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.center {
+    display: block;
+    background: #828a9c url(imagens/imagem_sem_fundo.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 577px;
+}
+.parte2 {
+    background-color: #590202;
+    padding: 100px 200px;
+    color: #828a9c;
+}    
+.parte2 .subtitulo1{
+    color: #f4cacf;
+}
+.parte2 .subtitulo2{
+    color: #f4cacf;
+    padding-bottom: 0px;
+}
+.parte2 .text{
+    letter-spacing: 1pt;
+    margin-bottom: 40px;
+}
+.parte2 .Cursos{
+    list-style: none;
+    padding-bottom: 40px;
+}
+.parte3{
+    background-color: #828a9c;
+    color: #590202;
+    padding: 80px 80px;
+}
+.barra-progresso{
+    height: 40px;
+    width: 400px;
+    accent-color: #590202;
+}
+.Habilidades{
+    color: #0D0D0D;
+    font-weight: 600;
+}
+.rodape{
+    background-color: #0D0D0D;
+    color: #828a9c;
+    padding: 80px 80px;
+    font-size: 14px;
+}
+.rodape a{
+    color: #828a9c;
+}
+.rodape a:hover{
+    color: #fff;
+}
