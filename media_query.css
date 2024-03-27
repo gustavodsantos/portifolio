@@ -8,7 +8,7 @@
     TVs: 1201px, and more.
 */
 
-@media screen and (min-width: 480px) and (max-width: 768px) { /*tablets*/
+@media screen and (min-width: 320px) and (max-width: 768px) { /*tablets*/
     *{
         margin: 0px;
     }
@@ -43,8 +43,8 @@
     .parte3 {
         padding: 0px 0px;
     }
-    .barra-progresso{
-        width: 300px;
+    #barra{
+        width: 250px;
     }   
     footer#rodape{
         padding: 10px 0px;
