@@ -11,6 +11,7 @@
 @media screen and (min-width: 320px) and (max-width: 768px) { /*tablets*/
     *{
         margin: 0px;
+        width: 100vw;
     }
     ::-webkit-scrollbar{
         width: 0px;
@@ -36,6 +37,9 @@
     .atalho{
         display: block;
         height: 40px;
+    }
+    .center{
+       background-position: bottom; 
     }   
     .parte2 {
         padding: 0px 0px;
