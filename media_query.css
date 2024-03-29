@@ -25,7 +25,7 @@
         font-size: 15px;
     }
     .parte1 {
-        padding: 0px 10px;
+        padding: 0px 15px;
     }
     .paragrafo-parte1 {
         font-size: 15px;
@@ -33,24 +33,25 @@
         line-height: 23px;
     }
     .mais-info {
-        display: block;
-        height: 50px;
+        display: inline-block;
+        margin-bottom: 10px;
     }
     .imagem {
        background-position: bottom; 
     }   
     .parte2 {
-        padding: 0px 10px;
+        padding: 0px 15px;
     }   
     .parte3 {
-        padding: 0px 10px;
+        padding: 0px 15px;
     }
     .barra-progress {
         width: 250px;
     }   
     .rodape {
         padding: 10px 0px;
-        font-size: 10px;
+        font-size: 15px;
+        line-height: 32px;
     }
 }
 
@@ -77,8 +78,8 @@
         line-height: 20px;
     }
     .mais-info {
-        display: block;
-        height: 50px;
+        display: inline-block;
+        margin-bottom: 10px;
     } 
     .parte2 {
         padding: 0px 100px;
@@ -88,10 +89,7 @@
     }   
     .parte3 {
         padding: 0px 100px;
-    }
-    .barra-progress {
-        
-    }   
+    } 
     .rodape {
         padding: 20px 0px;
         font-size: 15px;

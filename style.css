@@ -13,10 +13,10 @@ body, html {
     width: 100vw;
 }
 .titulo {
-    font-size: 60px;
+    font-size: 46px;
     font-weight: 900;
     color: #ECF2DF;
-    text-shadow: 1px 1px 8px #ffffff;
+    text-shadow: 1px 1px 7px #ffffff;
     padding-bottom: 20px;
 }
 .subtitulo1 {
@@ -25,7 +25,7 @@ body, html {
     font-weight: 600;
     letter-spacing: 1pt;
     padding-bottom: 30px;
-    text-shadow: 1px 1px 1px #ffffff;
+    text-shadow: 1px 1px 3px #ffffff;
 }
 .subtitulo2 {
     color: #590202;
@@ -33,7 +33,7 @@ body, html {
     font-weight: 600;
     letter-spacing: 1pt;
     padding-bottom: 30px;
-    text-shadow: 1px 1px 1px #ffffff;
+    text-shadow: 1px 1px 3px #ffffff;
 }
 .parte1 {
     background-color: #0D0D0D;
@@ -47,12 +47,13 @@ body, html {
     margin-bottom: 20px;
 }
 .mais-info {
-    background-color: #0D0D0D;
+    background-color: #590202;
     border-radius: 5px;
-    padding: 20px 40px;
+    padding: 15px 25px;
     color: white;
     text-decoration: none;
     font-weight: 600;
+    text-shadow: 1px 1px 7px #ffffff;
 }
 .imagem {
     display: block;
@@ -108,12 +109,13 @@ body, html {
 .rodape{
     background-color: #0D0D0D;
     color: #828a9c;
-    padding: 80px 80px;
+    padding: 60px 80px;
     font-size: 14px;
+    line-height: 25px;
 }
-.rodape a{
+a{
     color: #828a9c;
 }
-.rodape a:hover{
+a:hover{
     color: #fff;
 }
