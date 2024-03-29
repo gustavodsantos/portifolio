@@ -14,6 +14,7 @@
         width: 0px;
         height: 0px;
     }
+    /* Primeira parte: onde faço minha apresentação */
     .titulo {
         font-size: 25px;
     }
@@ -36,18 +37,20 @@
         display: inline-block;
         margin-bottom: 10px;
     }
-    .imagem {
-       background-position: bottom; 
-    }   
+
+    /* Segunda parte: onde está listados os cursos */   
     .parte2 {
         padding: 0px 15px;
-    }   
+    }
+
+    /* Terceira parte: grafico das minhas habilidades */   
     .parte3 {
         padding: 0px 15px;
     }
     .barra-progress {
         width: 250px;
-    }   
+    }
+    /* Footer: rodapé contendo informações de contato */   
     .rodape {
         padding: 10px 0px;
         font-size: 15px;
@@ -61,6 +64,8 @@
         width: 0px;
         height: 0px;
     }
+
+     /* Primeira parte: onde faço minha apresentação */
     .titulo {
         font-size: 40px;
     }
@@ -80,16 +85,22 @@
     .mais-info {
         display: inline-block;
         margin-bottom: 10px;
-    } 
+    }
+
+    /* Segunda parte: onde está listados os cursos */ 
     .parte2 {
         padding: 0px 100px;
     }
     .paragrafos-parte2{
         line-height: 20px;
-    }   
+    }
+
+    /* Terceira parte: grafico das minhas habilidades */   
     .parte3 {
         padding: 0px 100px;
-    } 
+    }
+
+    /* Footer: rodapé contendo informações de contato */ 
     .rodape {
         padding: 20px 0px;
         font-size: 15px;
