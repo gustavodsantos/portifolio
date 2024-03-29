@@ -8,7 +8,7 @@
     TVs: 1201px, and more.
 */
 
-@media screen and (min-width: 320px) and (max-width: 768px) { /*tablets*/
+@media screen and (min-width: 320px) and (max-width: 768px) { /*Celular*/
 
     ::-webkit-scrollbar{
         width: 0px;
@@ -19,36 +19,81 @@
     }
     .subtitulo1 {
         font-size: 15px;
+        padding: 20px;
     }
     .subtitulo2 {
         font-size: 15px;
     }
-    .text {
+    .parte1 {
+        padding: 0px 10px;
+    }
+    .paragrafo-parte1 {
         font-size: 15px;
         letter-spacing: 0pt;
         line-height: 23px;
     }
-    .parte1 {
-        padding: 0px 0px;
-    }
-    .atalho{
+    .mais-info {
         display: block;
-        height: 40px;
+        height: 50px;
     }
-    .center{
+    .imagem {
        background-position: bottom; 
     }   
     .parte2 {
-        padding: 0px 0px;
+        padding: 0px 10px;
     }   
     .parte3 {
-        padding: 0px 0px;
+        padding: 0px 10px;
     }
-    #barra{
+    .barra-progress {
         width: 250px;
     }   
-    footer#rodape{
+    .rodape {
         padding: 10px 0px;
         font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) { /*Tablets*/
+
+    ::-webkit-scrollbar{
+        width: 0px;
+        height: 0px;
+    }
+    .titulo {
+        font-size: 40px;
+    }
+    .subtitulo1 {
+        font-size: 20px;
+    }
+    .subtitulo2 {
+        font-size: 20px;
+    }
+    .parte1 {
+        padding: 0px 100px;
+    }
+    .paragrafo-parte1 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .mais-info {
+        display: block;
+        height: 50px;
+    } 
+    .parte2 {
+        padding: 0px 100px;
+    }
+    .paragrafos-parte2{
+        line-height: 20px;
+    }   
+    .parte3 {
+        padding: 0px 100px;
+    }
+    .barra-progress {
+        
+    }   
+    .rodape {
+        padding: 20px 0px;
+        font-size: 15px;
     }
 }
