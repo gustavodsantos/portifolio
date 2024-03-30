@@ -4,10 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gustavo Portifolio</title>
+    <link rel="shortcut icon" href="imagens/Bokehlicia-Captiva-Rocket.256.png" type="image.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media_query.css">
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+            <a class="navbar-brand" href="#">Gustavo Portifolio</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Alterna navegação">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certificados">Certificados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#habilidades">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#img">Foto</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
     <main>
         <section>
             <!-- Primeira parte: onde faço minha apresentação -->
@@ -45,7 +73,7 @@
             </article>
 
             <!-- Aside: minha foto de perfil -->
-            <aside class="imagem">
+            <aside class="imagem" id="img">
             
             </aside>
 
@@ -101,7 +129,7 @@
                 </p>
             </article>
             <!-- Terceira parte: grafico das minhas habilidades -->
-            <article class="parte3">
+            <article class="parte3" id="habilidades">
                 <h2 class="titulo-parte3">HABILIDADES</h2>
                 <p class="habilidades">HTML</p>
                 <progress class="barra-progress" max="100" value="80">
@@ -109,13 +137,15 @@
                 </progress>
                 <p class="habilidades">CSS</p>
                 <progress class="barra-progress" max="100" value="80">
+
                 </progress>
                 <p class="habilidades">Python</p>
                 <progress class="barra-progress" max="100" value="70">
-                </progress>
+
                 </progress>
                 <p class="habilidades">Django</p>
                 <progress class="barra-progress" max="100" value="30">
+
                 </progress>
             </article>
         </section>
