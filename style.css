@@ -2,132 +2,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     font-family: "Inter", "sans-serif";
-    text-align: center;
 }
-body, html {
-    height: 100vh;
-    width: 100vw;
-}
-
-/* Primeira parte: onde faço minha apresentação */
-.titulo {
-    font-size: 46px;
-    font-weight: 900;
-    color: #ECF2DF;
-    text-shadow: 1px 1px 7px #ffffff;
-    padding-bottom: 20px;
-}
-.subtitulo1 {
-    font-size: 30px;
-    color: #590202;
-    font-weight: 600;
-    letter-spacing: 1pt;
-    padding-bottom: 30px;
-    text-shadow: 1px 1px 3px #ffffff;
-}
-.subtitulo2 {
-    color: #590202;
-    font-size: 30px;
-    font-weight: 600;
-    letter-spacing: 1pt;
-    padding-bottom: 30px;
-    text-shadow: 1px 1px 3px #ffffff;
-}
-.parte1 {
+.apresentacao {
+    padding-top: 100px;
     background-color: #0D0D0D;
-    padding: 50px 200px;
-}
-.paragrafo-parte1 {
-    color: #828a9c;
-    font-size: 20px;
-    letter-spacing: 1pt;
-    line-height: 32px;
-    margin-bottom: 20px;
-}
-.mais-info {
-    background-color: #590202;
-    border-radius: 5px;
-    padding: 15px 25px;
-    color: white;
-    text-decoration: none;
-    font-weight: 600;
-    text-shadow: 1px 1px 7px #ffffff;
-}
-
-/* Aside: minha foto de perfil */
-.imagem {
-    display: block;
-    background: #828a9c url(imagens/imagem_sem_fundo.png) no-repeat;
-    background-attachment: fixed;
-    background-size: contain;
-    background-position: center;
-    height: 577px;
-}
-
-/* Segunda parte: onde está listados os cursos */
-.parte2 {
-    background-color: #590202;
-    padding: 100px 300px;
     color: #828a9c;
 }
-.paragrafos-parte2{
-    padding-bottom: 20px;
-}
-.parte2 p {
-    text-align: left;    
-}    
-.titulo-parte2 {
-    color: #f4cacf;
-    font-size: 40px;
-    font-weight: 600;
-    letter-spacing: 1pt;
-    padding-bottom: 30px;
-    text-shadow: 6px 6px 10px #0D0D0D;
-}
-.cursos-parte2{
-    color: #f4cacf;
-    padding-bottom: 0px;
-}
-
-/* Terceira parte: grafico das minhas habilidades */
-.parte3{
+.foto {
     background-color: #828a9c;
-    color: #590202;
-    padding: 80px 80px;
 }
-.titulo-parte3{
-    font-size: 26px;
-    font-weight: 600;
-    letter-spacing: 1pt;
-    padding-bottom: 30px;
+.cursos {
+    background-color: #590202;
+    color: #828a9c;
 }
-.barra-progress{
-    height: 40px;
-    width: 400px;
-    accent-color: #590202;
+.graficos {
+    background-color: #828a9c;
 }
-.habilidades{
-    color: #0D0D0D;
-    font-weight: 600;
-}
-
-/* Footer: rodapé contendo informações de contato */
-.rodape{
+.rodape {
     background-color: #0D0D0D;
     color: #828a9c;
-    padding: 60px 80px;
-    font-size: 14px;
-    line-height: 25px;
 }
-
 /* Links */
-a{
-    color: #828a9c;
+.rodape a {
+    color: #babfca;
 }
-a:hover{
+.rodape a:hover {
+    color: #fff;
+}
+main a {
+    color: #babfca;
+}
+main a:hover {
     color: #fff;
 }
