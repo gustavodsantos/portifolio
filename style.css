@@ -3,26 +3,13 @@
 
 * {
     font-family: "Inter", "sans-serif";
+    background-color: #0D0D0D;
+    color: #828a9c;
 }
 .apresentacao {
-    padding-top: 100px;
-    background-color: #0D0D0D;
-    color: #828a9c;
+    padding-top: 100px; 
 }
-.foto {
-    background-color: #828a9c;
-}
-.cursos {
-    background-color: #590202;
-    color: #828a9c;
-}
-.graficos {
-    background-color: #828a9c;
-}
-.rodape {
-    background-color: #0D0D0D;
-    color: #828a9c;
-}
+
 /* Links */
 .rodape a {
     color: #babfca;
